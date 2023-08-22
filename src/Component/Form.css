@@ -133,7 +133,6 @@ input[type="checkbox"] {
     vertical-align: middle;
 }
 
-/* Odd Rows Background Color */
 tr:nth-child(odd) {
     background-color: #f2f2f2;
 }

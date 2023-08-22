@@ -93,22 +93,22 @@ const GoogleFormClone = () => {
     setDropdownValue("");
   };
   const handleClear = () => {
-    setRadioOption(""); // Reset radio option
-    setCheckBoxes({ option1: false, option2: false, option3: false }); // Reset checkboxes
-    setTextFieldValue(""); // Reset text field
-    setDropdownValue(""); // Reset dropdown
-    setSelectedFile(null); // Reset file upload
-    setSelectedRadio(''); // Reset radio buttons
+    setRadioOption("");
+    setCheckBoxes({ option1: false, option2: false, option3: false }); 
+    setTextFieldValue(""); 
+    setDropdownValue("");
+    setSelectedFile(null); 
+    setSelectedRadio(''); 
     setGrid([
       [false, false, false],
       [false, false, false],
       [false, false, false]
-    ]); // Reset grid for checkboxes
+    ]); 
     setRadio([
       [false, false, false],
       [false, false, false],
       [false, false, false]
-    ]); // Reset grid for radio buttons
+    ]); 
   };
 
 
